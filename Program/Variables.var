@@ -1,0 +1,32 @@
+VAR
+	stav : UINT;
+	power_on_off : BOOL;
+	start_continual : BOOL;
+	start_absolute : BOOL;
+	start_additive : BOOL;
+	stop : BOOL;
+	vzdialenost : ARRAY[0..2] OF REAL;
+	pozicia : ARRAY[0..2] OF REAL;
+	MC_Power_0 : MC_Power;
+	MC_Power_1 : MC_Power;
+	MC_Power_2 : MC_Power;
+	MC_Home_0 : MC_Home;
+	MC_Home_1 : MC_Home;
+	MC_Home_2 : MC_Home;
+	MC_Stop_0 : MC_Stop;
+	MC_Stop_1 : MC_Stop;
+	MC_Stop_2 : MC_Stop;
+	MC_MoveVelocity_0 : MC_MoveVelocity;
+	MC_MoveVelocity_1 : MC_MoveVelocity;
+	MC_MoveVelocity_2 : MC_MoveVelocity;
+	MC_ReadActualPosition_0 : MC_ReadActualPosition;
+	MC_ReadActualPosition_1 : MC_ReadActualPosition;
+	MC_ReadActualPosition_2 : MC_ReadActualPosition;
+	MC_MoveAbsolute_0 : {REDUND_UNREPLICABLE} MC_MoveAbsolute;
+	MC_MoveAbsolute_1 : {REDUND_UNREPLICABLE} MC_MoveAbsolute;
+	MC_MoveAbsolute_2 : {REDUND_UNREPLICABLE} MC_MoveAbsolute;
+	MC_MoveAdditive_0 : MC_MoveAdditive;
+	MC_MoveAdditive_1 : MC_MoveAdditive;
+	MC_MoveAdditive_2 : MC_MoveAdditive;
+	poloha : ARRAY[0..2] OF REAL;
+END_VAR
