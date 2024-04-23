@@ -1,0 +1,21 @@
+Sat Mar 30 22:52:27 2024
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Sat Mar 30 22:52:27 2024
+No ARsim registration found!
+
+Sat Mar 30 22:52:27 2024
+InstanceName: 01da82ec8e6c83e0
+
+Sat Mar 30 22:52:27 2024
+WorkingDirectory: C:\projects\test_diplomovka\Temp\Simulation\Config1\X20CP0484\
+
+Sat Mar 30 22:52:27 2024
+COMMAND_COLDSTART
+
+Sat Mar 30 22:52:29 2024
+Version: B4.82
+
+Sat Mar 30 22:52:39 2024
+COMMAND_TERMINATE
+
