@@ -1,0 +1,21 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=Program 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=203 Type=100 Scope=60 Force=60 Index=1 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                             vzdialenost                               REAL[0..2]    0 "                                                               *"    0    8    3    0    1    1         
+                          vzdialenost[0]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                          vzdialenost[1]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                          vzdialenost[2]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                                    stop                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                    stav                                     UINT    0 "                                                               0"    0    6    1   10    1    0         
+                         start_continual                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                          start_additive                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                          start_absolute                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                 pozicia                               REAL[0..2]    0 "                                                               *"    0    8    3    0    1    1         
+                              pozicia[0]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                              pozicia[1]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                              pozicia[2]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                            power_on_off                                     BOOL    0 "                                                           FALSE"    0    1    1    2    1    0         
+                                  poloha                               REAL[0..2]    0 "                                                               *"    0    8    3    0    1    1         
+                               poloha[0]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                               poloha[1]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
+                               poloha[2]                                     REAL    0 "                                                             0.0"    1    8    1   10    1    0         
